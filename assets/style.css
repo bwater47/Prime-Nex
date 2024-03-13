@@ -1,118 +1,140 @@
 /*This is the header section/nav bar*/
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 1% 0;
-    background-color: rgb(0, 128, 111);
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1% 0;
+  background-color: rgb(0, 128, 111);
+  color: white;
 }
 
 header h1 {
-    margin-right: auto;
-    border: 3px solid black;
-    padding: 5px;
-    background-color: black;
+  margin-right: auto;
+  border: 3px solid black;
+  padding: 5px;
+  background-color: black;
 }
 
 header nav {
-    display: flex;
-    padding-right: 10%;
+  display: flex;
+  padding-right: 10%;
 }
 
 header ul {
-    display: flex;
-    padding: 0;
+  display: flex;
+  padding: 0;
 }
 
 header nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 header nav ul li {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 header nav ul li a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 /*This is the main section for the aside content and the section content*/
 main {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1%;
 }
 
 main aside {
-    width: 30%;
+  width: 25%;
 }
 
 main section {
-    width: 70%;
-    padding-left: 10%;
+  width: 75%;
+  border-left: 10%;
 }
 /*This is the aside section for the headers to the main content*/
 aside {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 30px;
 }
 
-aside h2 {
-    padding: 0 20px 0 20px;
-}
-
-aside h3 {
-    padding: 0 20px 0 20px;
-}
-
-aside h4 {
-    padding: 0 20px 0 20px;
+aside h2,
+h3,
+h4 {
+  padding: 0 20px 0 20px;
 }
 
 aside img {
-    display: flex;
-    width: auto;
-    max-width: 50%;
-    padding: 0 20px;
+  display: flex;
+  width: auto;
+  max-width: 50%;
+  padding: 0 20px;
 }
 /*This is the section tag part which is for the main content*/
 section p {
-    display: flex;
-    padding-top: 10%;
-    font-size: 30px;
-    padding-bottom: 10%;
+  display: flex;
+  padding-top: 10%;
+  font-size: 30px;
+  padding-bottom: 10%;
+}
+
+section a {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 section ul {
-    flex-wrap: wrap;
-    display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  padding-top: 10%;
 }
 
 section li {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1%;
+  padding: 10% 0;
+}
+
+section li a {
+  text-decoration: none;
+  color: black;
+}
+/*Footer for the bottom of the page.*/
+footer {
+  display: flex;
+  justify-content: center;
 }
 /*These are class attributes which are for any section*/
 .mainimg {
-    width: 100%;
-    padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  padding: 5px 5px;
 }
 
 .verticalLine {
-    border-right: thick solid black;
-    padding-right: 10px;
+  border-right: thick solid black;
+  padding-right: 10px;
 }
+
+.featureproject {
+  width: 100%;
+}
+
+.image-link {
+  padding: 5px;
+}
+
 /*This is the media screen resolution section for different devices*/
 @media screen and (max-width: 768px) {
-    main,
-    aside{
-      flex-direction: column;
+  main,
+  aside {
+    flex-direction: column;
   }
 }
