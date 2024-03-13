@@ -1,3 +1,4 @@
+/*This is the header section/nav bar*/
 header {
     display: flex;
     align-items: center;
@@ -39,7 +40,7 @@ header nav ul li a {
     color: black;
     text-decoration: none;
 }
-
+/*This is the main section for the aside content and the section content*/
 main {
     display: flex;
     flex-wrap: wrap;
@@ -54,7 +55,7 @@ main section {
     width: 70%;
     padding-left: 10%;
 }
-
+/*This is the aside section for the headers to the main content*/
 aside {
     display: flex;
     align-items: center;
@@ -80,22 +81,12 @@ aside img {
     max-width: 50%;
     padding: 0 20px;
 }
-
+/*This is the section tag part which is for the main content*/
 section p {
     display: flex;
     padding-top: 10%;
     font-size: 30px;
     padding-bottom: 10%;
-}
-
-.mainimg {
-    width: 100%;
-    padding: 40px 0;
-}
-
-.verticalLine {
-    border-right: thick solid black;
-    padding-right: 10px;
 }
 
 section ul {
@@ -108,7 +99,17 @@ section li {
     justify-content: space-between;
     margin-left: 200px;
 }
+/*These are class attributes which are for any section*/
+.mainimg {
+    width: 100%;
+    padding: 40px 0;
+}
 
+.verticalLine {
+    border-right: thick solid black;
+    padding-right: 10px;
+}
+/*This is the media screen resolution section for different devices*/
 @media screen and (max-width: 768px) {
     main,
     aside{
