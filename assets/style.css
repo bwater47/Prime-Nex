@@ -64,7 +64,7 @@ aside {
 
 aside h2,
 h3,
-h4 {
+h4, h5 {
   padding: 0 20px;
 }
 
@@ -143,6 +143,21 @@ footer {
 .contentborder {
   border: double rgb(0, 128, 111);
   border-width: 5px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: white;
 }
 
 /*This is the media screen resolution section for small phone devices*/
