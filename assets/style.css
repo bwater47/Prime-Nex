@@ -152,6 +152,16 @@ footer {
   border-width: 5px;
 }
 
+.contentborder ul {
+  padding: 10px;
+}
+
+.contentborder ul li {
+  list-style-type: none;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
 .container {
   position: relative;
   text-align: center;
@@ -169,6 +179,11 @@ footer {
 /*This is a section for pseudo classes*/
 nav ul li a:hover {
   color: #80f8a8; /* Change to your desired hover color */
+}
+
+.contentborder ul li:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 /*This is the media screen resolution section for small phone devices*/
 @media screen and (max-width: 480px) {
@@ -199,9 +214,26 @@ nav ul li a:hover {
     border-left: none;
   }
 
+  aside {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  aside img {
+    display: flex;
+    max-width: 50%;
+    padding: 0 20px;
+  }
+
   section p {
     padding: 5% 2%;
     font-size: 10px;
+  }
+
+  .centered {
+    font-size: 12px;
+    color: white;
   }
 
   section ul {
@@ -214,21 +246,12 @@ nav ul li a:hover {
   section li {
     margin: 5px 0;
   }
+
   .verticalLine {
     border-right: thick solid black;
     padding-right: 40px;
   }
-  aside {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    font-size: 20px;
-  }
-  aside img {
-    display: flex;
-    max-width: 50%;
-    padding: 0 20px;
-  }
+
   footer {
     display: flex;
     padding-left: 10%;
@@ -263,9 +286,26 @@ nav ul li a:hover {
     border-left: none;
   }
 
+  aside {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  aside img {
+    display: flex;
+    max-width: 50%;
+    padding: 0 20px;
+  }
+
   section p {
     padding: 5% 2%;
     font-size: 14px;
+  }
+
+  .centered {
+    font-size: 20px;
+    color: white;
   }
 
   section ul {
@@ -278,21 +318,12 @@ nav ul li a:hover {
   section li {
     margin: 5px 0;
   }
+
   .verticalLine {
     border-right: thick solid black;
     padding-right: 40px;
   }
-  aside {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    font-size: 20px;
-  }
-  aside img {
-    display: flex;
-    max-width: 50%;
-    padding: 0 20px;
-  }
+
   footer {
     display: flex;
     padding-left: 10%;
@@ -327,9 +358,26 @@ nav ul li a:hover {
     border-left: none;
   }
 
+  aside {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  aside img {
+    display: flex;
+    max-width: 20%;
+    padding: 0 20px;
+  }
+
   section p {
     padding: 5% 2%;
     font-size: 20px;
+  }
+
+  .centered {
+    font-size: 20px;
+    color: white;
   }
 
   section ul {
@@ -342,21 +390,12 @@ nav ul li a:hover {
   section li {
     margin: 5px 0;
   }
+
   .verticalLine {
     border-right: thick solid black;
     padding-right: 40px;
   }
-  aside {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    font-size: 20px;
-  }
-  aside img {
-    display: flex;
-    max-width: 20%;
-    padding: 0 20px;
-  }
+  
   footer {
     display: flex;
     padding-left: 10%;
