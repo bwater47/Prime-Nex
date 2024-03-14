@@ -2,7 +2,7 @@
 Landing Page
 
 ## Description
-Add description
+This is a portfolio for my career.
 
 ## Badges
 Shields.io

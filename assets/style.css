@@ -145,38 +145,38 @@ footer {
   border-width: 5px;
 }
 
-/*This is the media screen resolution section for different devices*/
+/*This is the media screen resolution section for small phone devices*/
 @media screen and (max-width: 480px) {
   header {
     padding: 5px 0;
   }
 
   header h1 {
-    margin: 0; /* Remove margin for the h1 element */
-    border: none; /* Remove border for the h1 element */
-    padding: 5px; /* Adjust padding for the h1 element */
+    margin: 0;
+    border: none;
+    padding: 5px;
   }
 
   header nav ul li {
     display: flex;
     justify-content: start;
     flex-direction: row;
-    margin: 5px 10px 5px 10px; /* Adjust margin for the list items in the navigation */
+    margin: 5px 10px 5px 10px;
     padding-right: 20px;
   }
 
   main aside {
-    width: 100%; /* Make the aside element full width */
+    width: 100%;
   }
 
   main section {
-    width: 100%; /* Make the section element full width */
-    border-left: none; /* Remove the border on the left side */
+    width: 100%;
+    border-left: none;
   }
 
   section p {
-    padding: 5% 2%; /* Adjust padding for the paragraphs in the section */
-    font-size: 10px; /* Adjust font size for the paragraphs */
+    padding: 5% 2%;
+    font-size: 10px;
   }
 
   section ul {
@@ -187,7 +187,7 @@ footer {
   }
 
   section li {
-    margin: 5px 0; /* Adjust margin for the list items in the section */
+    margin: 5px 0;
   }
   .verticalLine {
     border-right: thick solid black;
@@ -209,37 +209,38 @@ footer {
     padding-left: 10%;
   }
 }
+/*This is the media screen resolution section for tablet devices*/
 @media screen and (min-width: 480px) and (max-width: 767px) {
   header {
-    padding: 5px 0; /* Adjust padding for the header */
+    padding: 5px 0;
   }
 
   header h1 {
-    margin: 0; /* Remove margin for the h1 element */
-    border: none; /* Remove border for the h1 element */
-    padding: 5px; /* Adjust padding for the h1 element */
+    margin: 0;
+    border: none;
+    padding: 5px;
   }
 
   header nav ul li {
     display: flex;
     justify-content: start;
     flex-direction: row;
-    margin: 5px 10px 5px 10px; /* Adjust margin for the list items in the navigation */
+    margin: 5px 10px 5px 10px;
     padding-right: 20px;
   }
 
   main aside {
-    width: 100%; /* Make the aside element full width */
+    width: 100%;
   }
 
   main section {
-    width: 100%; /* Make the section element full width */
-    border-left: none; /* Remove the border on the left side */
+    width: 100%;
+    border-left: none;
   }
 
   section p {
-    padding: 5% 2%; /* Adjust padding for the paragraphs in the section */
-    font-size: 14px; /* Adjust font size for the paragraphs */
+    padding: 5% 2%;
+    font-size: 14px;
   }
 
   section ul {
@@ -250,7 +251,7 @@ footer {
   }
 
   section li {
-    margin: 5px 0; /* Adjust margin for the list items in the section */
+    margin: 5px 0;
   }
   .verticalLine {
     border-right: thick solid black;
@@ -272,37 +273,38 @@ footer {
     padding-left: 10%;
   }
 }
+/*This is the media screen resolution section for big tablet, and laptop devices*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   header {
-    padding: 5px 0; /* Adjust padding for the header */
+    padding: 5px 0;
   }
 
   header h1 {
-    margin: 0; /* Remove margin for the h1 element */
-    border: none; /* Remove border for the h1 element */
-    padding: 5px; /* Adjust padding for the h1 element */
+    margin: 0;
+    border: none;
+    padding: 5px;
   }
 
   header nav ul li {
     display: flex;
     justify-content: start;
     flex-direction: row;
-    margin: 5px 10px 5px 10px; /* Adjust margin for the list items in the navigation */
+    margin: 5px 10px 5px 10px;
     padding-right: 20px;
   }
 
   main aside {
-    width: 100%; /* Make the aside element full width */
+    width: 100%;
   }
 
   main section {
-    width: 100%; /* Make the section element full width */
-    border-left: none; /* Remove the border on the left side */
+    width: 100%;
+    border-left: none;
   }
 
   section p {
-    padding: 5% 2%; /* Adjust padding for the paragraphs in the section */
-    font-size: 20px; /* Adjust font size for the paragraphs */
+    padding: 5% 2%;
+    font-size: 20px;
   }
 
   section ul {
@@ -313,7 +315,7 @@ footer {
   }
 
   section li {
-    margin: 5px 0; /* Adjust margin for the list items in the section */
+    margin: 5px 0;
   }
   .verticalLine {
     border-right: thick solid black;
