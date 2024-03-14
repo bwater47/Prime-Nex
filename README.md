@@ -16,8 +16,8 @@ Thank you for visiting my portfolio. I hope you find inspiration and insight as 
 Shields.io
 
 ## Visuals
-Link: 
-Screenshot: 
+Link: <a href="https://bwater47.github.io/Prime-Nex/">Landing Page</a>
+Screenshot: <img src="./images/screenshot1.png" alt="Landing Page"> <img src="./images/screenshot2.png" alt="Landing Page"> <img src="./images/screenshot3.png" alt="Landing Page">
 
 ## Installation
 N/A
