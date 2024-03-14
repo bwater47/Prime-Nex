@@ -35,13 +35,15 @@ N/A
 Contributing is allowed if you're in the U of U Coding Bootcamp. Contact me on on the slack channel for information.
 
 ## Authors and acknowledgment
-Bootcamp Spot. (03/09/2024). https://bootcampspot.com/
+Bootcamp Spot. (03/13/2024). https://bootcampspot.com/
 
-Chatgpt. ChatGPT. (03/09/2024). https://openai.com/chatgpt
+W3Schools Online Web Tutorials. (03/14/2024). https://www.w3schools.com/ 
+
+Chatgpt. ChatGPT. (03/14/2024). https://openai.com/chatgpt
 
 • Please note: While ChatGPT was utilized to generate dialog content for the README file, it was not involved in the generation of any code, HTML edits, CSS edits, or other assets within the repository apart from this README specifically.
 
-• All other sources, links, and information utilized within the project were obtained from the provided sources mentioned above. This includes class materials, modules, TA guidance, instructor-provided resources, as well as communication through platforms such as Slack or Discord. Additionally, numerous links and resources were provided within the assignment instructions and demonstrated during class sessions.
+• All other sources, links, and information utilized within the project were obtained from the provided sources mentioned in this paragraph. This includes class materials, modules, TA guidance, instructor-provided resources, as well as communication through platforms such as Slack or Discord. Additionally, numerous links and resources were provided within the assignment instructions and demonstrated during class sessions.
 
 ## Project status
 N/A
