@@ -178,7 +178,7 @@ footer {
 }
 /*This is a section for pseudo classes*/
 nav ul li a:hover {
-  color: #80f8a8; /* Change to your desired hover color */
+  color: #80f8a8;
 }
 
 .contentborder ul li:hover {
@@ -395,7 +395,7 @@ nav ul li a:hover {
     border-right: thick solid black;
     padding-right: 40px;
   }
-  
+
   footer {
     display: flex;
     padding-left: 10%;
