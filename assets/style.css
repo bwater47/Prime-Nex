@@ -53,7 +53,6 @@ main aside {
 
 main section {
   width: 75%;
-  border-left: 10%;
 }
 /*This is the aside section for the headers to the main content*/
 aside {
@@ -78,19 +77,21 @@ aside img {
 section p {
   display: flex;
   padding: 10% 5%;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 section a {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 section ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 10% 5%;
+  justify-content: space-evenly;
+  padding: 5% 5%;
 }
 
 section li {
@@ -106,13 +107,16 @@ section li a {
 footer {
   display: flex;
   justify-content: center;
+  padding: 5% 10%;
 }
 /*These are class attributes which are for any section*/
 .mainimg {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  width: 45%;
-  padding: 10% 5%;
+  width: 75%;
+  padding: 5% 5%;
 }
 
 .featureproject {
@@ -126,14 +130,25 @@ footer {
 
 .card-box {
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box img {
+  display: flex;
+  width: 90%;
+  padding: 5% 5%;
+}
+
+.contentborder {
+  border: double rgb(0, 128, 111);
+  border-width: 5px;
 }
 
 /*This is the media screen resolution section for different devices*/
 @media screen and (max-width: 480px) {
   header {
-    padding: 5px 0; /* Adjust padding for the header */
+    padding: 5px 0;
   }
 
   header h1 {
