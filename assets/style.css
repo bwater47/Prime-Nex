@@ -40,6 +40,12 @@ header nav ul li a {
   color: black;
   text-decoration: none;
 }
+/*This is a section for just the navigation bar items*/
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
 /*This is the main section for the aside content and the section content*/
 main {
   display: flex;
@@ -160,7 +166,10 @@ footer {
   font-size: 25px;
   color: white;
 }
-
+/*This is a section for pseudo classes*/
+nav ul li a:hover {
+  color: #80f8a8; /* Change to your desired hover color */
+}
 /*This is the media screen resolution section for small phone devices*/
 @media screen and (max-width: 480px) {
   header {
